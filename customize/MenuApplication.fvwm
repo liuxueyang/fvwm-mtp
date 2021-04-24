@@ -4,24 +4,34 @@
 
 DestroyMenu MenuApplication
 AddToMenu MenuApplication
+  + "dev" Popup MenuDev
 	+ "net" Popup MenuNet
 	+ "media" Popup MenuMedia
 	+ "" Nop
 	+ "fvwmconsole" Module FvwmConsole
 
+DestroyMenu MenuDev
+AddToMenu MenuDev
+  + "emacs" Exec emacs
+  + "thunar" Exec thunar
+
 DestroyMenu MenuNet
 AddToMenu MenuNet
 	+ "firefox" Exec firefox
-	+ "liferea" Exec liferea
-	+ "xchat" Exec xchat
-	+ "pidgin" Exec pidgin
+  + "trojan" Exec /home/algouage/fun/trojan/linux/Trojan-Qt5-Linux.AppImage
+  + "telegram" Exec telegram-desktop
+  + "hexchat" Exec hexchat
+	# + "liferea" Exec liferea
+	# + "xchat" Exec xchat
+	# + "pidgin" Exec pidgin
 
 DestroyMenu MenuMedia
 AddToMenu MenuMedia
-	+ "xmms" Exec xmms
-	+ "gimp" Exec gimp
-	+ "blender" Exec blender
-	+ "mplayer" Exec gmplayer
-	+ "wings3d" Exec wings3d
-	+ "inkscape" Exec inkscape
-
+	# + "xmms" Exec xmms
+  + "obs" Exec obs
+  + "mpv" Exec mpv
+	# + "gimp" Exec gimp
+	# + "blender" Exec blender
+	# + "mplayer" Exec gmplayer
+	# + "wings3d" Exec wings3d
+	# + "inkscape" Exec inkscape

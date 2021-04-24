@@ -4,7 +4,6 @@
 
 AddToFunc WindowPlacementHandler
 	+ I ThisWindow ("Mozilla Firefox") MoveToPage 1 0
-	+ I ThisWindow ("XMMS") MoveToPage 2 1
-	+ I ThisWindow ("XMMS Playlist") MoveToPage 2 1
-	+ I ThisWindow ("XMMS Equalizer") MoveToPage 2 1
-
+	# + I ThisWindow ("XMMS") MoveToPage 2 1
+	# + I ThisWindow ("XMMS Playlist") MoveToPage 2 1
+	# + I ThisWindow ("XMMS Equalizer") MoveToPage 2 1
