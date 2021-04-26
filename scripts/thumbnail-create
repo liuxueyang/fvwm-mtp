@@ -19,4 +19,3 @@ Raise
 WindowStyle IconOverride, Icon "$dir"/"$wid".png
 Iconify
 END
-

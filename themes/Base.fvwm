@@ -219,6 +219,7 @@ AddToFunc StartFunction
 *FvwmPager: Colorset * 1
 *FvwmPager: WindowColorsets 2 3
 *FvwmPager: Geometry 251x171-0+0
+# *FvwmPager: MiniIcons
 
 Style FvwmPager !Title, !Borders, StaysOnBottom, Sticky
 
@@ -440,4 +441,3 @@ Read $[mtp_customize]/MouseBindings.fvwm
 ##
 
 Read $[mtp_customize]/KeyBindings.fvwm
-

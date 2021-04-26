@@ -6,7 +6,7 @@ SetEnv themes MixedThemePackage/themes
 
 # Read $[themes]/air1/air1-1280x1024.fvwm
 # Read $[themes]/air1/air1-1920x1200.fvwm
-Read $[themes]/air2/air2.fvwm
+# Read $[themes]/air2/air2.fvwm
 # Read $[themes]/blue/blue.fvwm
 # Read $[themes]/bluestripes/bluestripes-1280x1024.fvwm
 # Read $[themes]/bluestripes/bluestripes-1920x1200.fvwm
@@ -26,5 +26,6 @@ Read $[themes]/air2/air2.fvwm
 # Read $[themes]/waitingroom/waitingroom-1920x1200.fvwm
 # Read $[themes]/wheat/wheat-1280x1024.fvwm
 # Read $[themes]/wheat/wheat-1920x1200.fvwm
+Read $[themes]/wheat/wheat-custom.fvwm
 
 UnsetEnv themes

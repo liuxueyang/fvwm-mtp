@@ -5,6 +5,7 @@
 DestroyMenu MenuApplication
 AddToMenu MenuApplication
   + "dev" Popup MenuDev
+  + "util" Popup MenuUtil
 	+ "net" Popup MenuNet
 	+ "media" Popup MenuMedia
 	+ "" Nop
@@ -13,7 +14,14 @@ AddToMenu MenuApplication
 DestroyMenu MenuDev
 AddToMenu MenuDev
   + "emacs" Exec emacs
+  # + "thunar" Exec thunar
+
+DestroyMenu MenuUtil
+AddToMenu MenuUtil
   + "thunar" Exec thunar
+  + "zathura" Exec zathura
+  + "okular" Exec okular
+  + "keepassxc" Exec keepassxc
 
 DestroyMenu MenuNet
 AddToMenu MenuNet
@@ -29,7 +37,7 @@ DestroyMenu MenuMedia
 AddToMenu MenuMedia
 	# + "xmms" Exec xmms
   + "obs" Exec obs
-  + "mpv" Exec mpv
+  # + "mpv" Exec mpv
 	# + "gimp" Exec gimp
 	# + "blender" Exec blender
 	# + "mplayer" Exec gmplayer
