@@ -23,6 +23,10 @@ Key Return WTSF1246 4 Maximize 100 100
 
 Key Up WTSF1246 4 Maximize 0 100
 Key Right WTSF1246 4 Maximize 100 0
+# Go one page down
+Key Down A 4 GotoPage wrapy 0p +1p
+# Go one page left
+Key Left A 4 GotoPage wrapx -1p 0p
 
 Key KP_Add WTSF1246 N WindowSizeIncrease
 Key KP_Subtract WTSF1246 N WindowSizeDecrease

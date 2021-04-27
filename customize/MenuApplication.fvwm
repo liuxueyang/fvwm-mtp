@@ -23,6 +23,7 @@ AddToMenu MenuUtil
   + "zathura" Exec zathura
   + "okular" Exec okular
   + "keepassxc" Exec keepassxc
+  + "scrot" Exec scrot -d 3 ~/Pictures/Screenshot_%Y%m%d_%H%M%S.png
 
 DestroyMenu MenuNet
 AddToMenu MenuNet
