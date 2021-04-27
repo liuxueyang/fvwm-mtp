@@ -7,4 +7,5 @@ AddToFunc StartFunction
 	+ I Test (Init) Exec xautolock -locker slock -time 5
 	+ I Test (Init) Exec xclock -geometry 164x164-0+211 -xrm 'XClock.Clock.hourColor: rgba:00/00/00/ff' -xrm 'XClock.Clock.minuteColor: rgba:00/00/00/ff' -xrm 'XClock.Clock.majorColor: rgba:00/00/00/ff' -xrm 'XClock.Clock.minorColor: rgba:00/00/00/ff'
 	+ I Test (Init) Exec xload -update 1 -geometry 164x164-0+425
-
+  + I ModulePath /home/algouage/fun/fvwm-mtp/scripts:+
+  + I Module flash.pl
