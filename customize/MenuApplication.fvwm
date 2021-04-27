@@ -10,7 +10,7 @@ AddToMenu MenuApplication
 	+ "media" Popup MenuMedia
 	+ "" Nop
 	+ "fvwmconsole" Module FvwmConsole
-  + "kill flash" KillModule flash.pl
+  # + "kill flash" KillModule flash.pl
 
 DestroyMenu MenuDev
 AddToMenu MenuDev
