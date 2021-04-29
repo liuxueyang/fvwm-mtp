@@ -24,10 +24,12 @@ AddToMenu MenuUtil
   + "okular" Exec okular
   + "keepassxc" Exec keepassxc
   + "scrot" Exec scrot -d 3 ~/Pictures/Screenshot_%Y%m%d_%H%M%S.png
+  + "calibre" Exec calibre
 
 DestroyMenu MenuNet
 AddToMenu MenuNet
 	+ "firefox" Exec firefox
+  + "chrome" Exec google-chrome
   + "trojan" Exec /home/algouage/fun/trojan/linux/Trojan-Qt5-Linux.AppImage
   + "telegram" Exec telegram-desktop
   + "hexchat" Exec hexchat
