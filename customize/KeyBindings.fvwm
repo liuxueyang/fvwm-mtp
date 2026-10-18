@@ -51,3 +51,4 @@ Key Menu A N Popup MenuMain
 Key Pause WTSF1246 N Thumbnail
 Key plus A 4 Terminal
 Key Tab A M WindowList (CurrentPage !Desk*) CurrentAtEnd, NoCurrentDeskTitle, NoHotkeys
+Key D A 4 Exec rofi -show run
